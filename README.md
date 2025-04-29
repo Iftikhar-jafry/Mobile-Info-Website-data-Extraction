@@ -1,48 +1,22 @@
-<div><h2>Mobile Info Web Scraper 📱</h2>
-<p>This project focuses on web scraping mobile phone data from the Mobile Info website. Using Selenium, it extracts essential details like price, specifications, and features for mobile phones with battery capacities ranging from 6000mAh to 7000mAh.
-</p></div>
+#Mobile Info Web Scraper 📱
+# Mobile Details Scraper
 
-<div>
-<h3>Features</h3>
-<ul>
-<li>Automates mobile data extraction from the website.
-</li>
-<li>Gathers details such as price, camera, RAM, storage, display, OS, and battery.
-</li>
-<li>Cleans and structures the data for easy analysis.
-</li>
-<li>Saves the extracted data into an Excel file.
-</li>
-</ul>  
-</div>
+This Python project performs web scraping to extract mobile phone details from the [Mobile Info](https://mobileinfo.pk/mobile/?battery=6001-7000-mah) website. The extracted data, including the product name and price of mobile phones, is stored in an Excel file for easy access and analysis. The entire process is implemented using **Jupyter Notebook**.
 
-<div>
- <h3>Project Output</h3>
-<ol>
-  The extracted data is stored in an organized Excel file that includes:
-<li>Product Name
-</li>
-<li>Price (PKR)</li>
+---
 
-<li>Camera</li>
+## Features
 
-<li>RAM</li>
+- **Web Scraping:** Extracts mobile phone details (product name and price) from the What Mobile website using Python libraries.
+- **Data Storage:** Saves the scraped data into an Excel file using Pandas.
+- **Interactive Notebook:** The project is implemented in a Jupyter Notebook, making it easy to understand and reproduce the process step-by-step.
 
-<li>Storage</li>
+---
 
-<li>Display</li>
+## Tech Stack
 
-<li>OS</li>
-
-<li>Battery</li>
-
-</ol> 
-</div>
-
-<div>
-<h3>Purpose</h3>
-This project serves as a practical implementation of web scraping, showcasing automation and data extraction capabilities for educational or analytical purposes.
-
-<h3>Disclaimer</h3>
-This project is intended for educational purposes only. Always adhere to the terms of service of the website being scraped.
-</div>
+- **Python**: The primary programming language.
+- **Beautiful Soup**: For parsing and extracting data from HTML.
+- **Requests**: For sending HTTP requests to fetch website content.
+- **Pandas**: For data manipulation and storing the results in an Excel file.
+- **Jupyter Notebook**: For an interactive coding and documentation environment.
